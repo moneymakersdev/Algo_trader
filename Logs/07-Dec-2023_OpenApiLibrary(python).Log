@@ -1,0 +1,33 @@
+2023-12-07 09:30:22             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-07 09:30:22             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-07 09:30:22             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-07 09:30:22             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-07 09:30:22             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-07 09:30:23             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-07 09:30:23             ERROR             MOFSLOPENAPI.py             Invalid UserId Or Password
+2023-12-07 09:30:23             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-07 09:30:23             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-07 09:30:23             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-07 09:30:23             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
+2023-12-07 10:45:29             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-07 10:45:31             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-07 10:45:31             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-07 10:45:31             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-07 10:45:31             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-07 10:45:32             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-07 10:45:32             ERROR             MOFSLOPENAPI.py             Invalid UserId Or Password
+2023-12-07 10:45:32             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-07 10:45:32             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-07 10:45:32             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-07 10:45:32             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
+2023-12-07 14:17:22             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-07 14:17:22             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-07 14:17:23             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-07 14:17:23             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-07 14:17:23             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-07 14:17:23             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-07 14:17:23             ERROR             MOFSLOPENAPI.py             Invalid UserId Or Password
+2023-12-07 14:17:23             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-07 14:17:23             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-07 14:17:23             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-07 14:17:23             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully

@@ -1,0 +1,41 @@
+2023-12-04 09:31:02             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-04 09:31:23             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-04 09:31:23             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-04 09:31:23             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-04 09:31:23             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-04 09:31:24             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-04 09:31:24             ERROR             MOFSLOPENAPI.py             Invalid User Id Or Api Key
+2023-12-04 09:31:24             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-04 09:31:24             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-04 09:31:24             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-04 09:31:24             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
+2023-12-04 09:31:24             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-04 09:31:24             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-04 09:31:25             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-04 09:31:25             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
+2023-12-04 09:33:00             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-04 09:33:00             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-04 09:33:01             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-04 09:33:01             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-04 09:33:01             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-04 09:33:01             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-04 09:33:01             ERROR             MOFSLOPENAPI.py             Invalid User Id Or Api Key
+2023-12-04 09:33:01             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-04 09:33:01             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-04 09:33:02             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-04 09:33:02             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
+2023-12-04 09:33:02             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-04 09:33:02             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-04 09:33:02             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-04 09:33:02             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
+2023-12-04 10:21:10             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-04 10:21:32             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-04 10:21:32             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-04 10:21:32             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-04 10:21:32             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-04 10:21:33             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-04 10:21:33             ERROR             MOFSLOPENAPI.py             Invalid User Id Or Api Key
+2023-12-04 10:21:33             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-04 10:21:33             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-04 10:21:33             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-04 10:21:33             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully

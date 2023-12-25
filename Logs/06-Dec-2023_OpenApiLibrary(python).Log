@@ -1,0 +1,67 @@
+2023-12-06 10:01:53             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-06 10:01:53             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-06 10:01:54             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-06 10:01:54             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-06 10:01:54             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 10:01:54             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-06 10:01:54             ERROR             MOFSLOPENAPI.py             Invalid User Id Or Api Key
+2023-12-06 10:01:54             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-06 10:01:54             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 10:01:54             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-06 10:01:54             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
+2023-12-06 11:37:11             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-06 11:37:12             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-06 11:37:12             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-06 11:37:12             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-06 11:37:12             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 11:37:12             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-06 11:37:12             ERROR             MOFSLOPENAPI.py             Invalid User Id Or Api Key
+2023-12-06 11:37:12             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-06 11:37:12             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 11:37:13             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-06 11:37:13             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
+2023-12-06 11:46:11             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-06 11:46:11             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-06 11:46:11             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-06 11:46:12             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-06 11:46:12             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 11:46:12             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-06 11:46:12             ERROR             MOFSLOPENAPI.py             Invalid User Id Or Api Key
+2023-12-06 11:46:12             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-06 11:46:12             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 11:46:12             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-06 11:46:12             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
+2023-12-06 12:01:27             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-06 12:01:28             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-06 12:01:28             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-06 12:01:28             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-06 12:01:28             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 12:01:29             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-06 12:01:29             ERROR             MOFSLOPENAPI.py             Invalid User Id Or Api Key
+2023-12-06 12:01:29             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-06 12:01:29             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 12:01:29             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-06 12:01:29             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
+2023-12-06 12:32:42             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-06 12:32:42             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-06 12:32:43             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-06 12:32:43             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-06 12:32:43             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 12:32:45             FAILED             MOFSLOPENAPI.py             HTTPSConnectionPool(host='openapi.motilaloswal.com', port=443): Max retries exceeded with url: /rest/login/v4/authdirectapi (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001122BB950D0>: Failed to resolve 'openapi.motilaloswal.com' ([Errno 11002] getaddrinfo failed)"))
+2023-12-06 12:32:45             FAILED             MOFSLOPENAPI.py             login_Error while sending the webRequest
+2023-12-06 12:32:45             FAILED             MOFSLOPENAPI.py             Login Request failed
+2023-12-06 12:32:45             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-06 12:32:45             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 12:32:46             FAILED             MOFSLOPENAPI.py             HTTPSConnectionPool(host='openapi.motilaloswal.com', port=443): Max retries exceeded with url: /rest/trans/v1/placeorder (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001122B5080D0>: Failed to resolve 'openapi.motilaloswal.com' ([Errno 11002] getaddrinfo failed)"))
+2023-12-06 12:32:46             FAILED             MOFSLOPENAPI.py             Expecting value: line 1 column 1 (char 0)
+2023-12-06 14:00:33             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor
+2023-12-06 14:00:34             SUCCESS             MOFSLOPENAPI.py             GetManufacturerHP
+2023-12-06 14:00:34             SUCCESS             MOFSLOPENAPI.py             Initilize Constructor Done
+2023-12-06 14:00:34             SUCCESS             MOFSLOPENAPI.py             Initilize login request send
+2023-12-06 14:00:34             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 14:00:34             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-06 14:00:34             ERROR             MOFSLOPENAPI.py             Invalid User Id Or Api Key
+2023-12-06 14:00:34             SUCCESS             MOFSLOPENAPI.py             Initilaize PlaceOrder request send
+2023-12-06 14:00:35             SUCCESS             MOFSLOPENAPI.py             Initilize Post WebRequest Sent
+2023-12-06 14:00:35             SUCCESS             MOFSLOPENAPI.py             Post WebRequest Send Successfully
+2023-12-06 14:00:35             SUCCESS             MOFSLOPENAPI.py             PlaceOrder request sent Successfully
