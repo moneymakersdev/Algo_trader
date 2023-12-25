@@ -48,9 +48,8 @@ def Buy_Order(symbol, token, strategy, DhanSymbol, AliceSymbol, UpstoxSymbol, Fy
                     if strategy == "nifty_expiry_ce" and strategy == "nifty_expiry_pe":
                         Angle_Buy_Order_Delivery(Api, Api_Secret, Totp, ClientID, Password, symbol, token, strategy, userid[0], "CARRYFORWARD", Qty)
                     else:
-                        thread1 = threading.Thread(target=Angle_Buy_Order(Api, Api_Secret, Totp, ClientID, Password, symbol, token, strategy, userid[0], "INTRADAY", Qty))
-                        thread1.start()
-                        thread1.join()
+                        Angle_Buy_Order(Api, Api_Secret, Totp, ClientID, Password, symbol, token, strategy, userid[0], "INTRADAY", Qty)
+
 
 
                 if Broker == "DHAN":
@@ -66,9 +65,8 @@ def Buy_Order(symbol, token, strategy, DhanSymbol, AliceSymbol, UpstoxSymbol, Fy
                     if strategy == "nifty_expiry_ce" and strategy == "nifty_expiry_pe":
                         Dhan_Buy_Order_Delivery(UserID, Access_Token, DhanSymbol, str(DhanSymbolToken).replace("'", ""), userid[0], strategy, "CNC", Qty)
                     else:
-                        thread2 = threading.Thread(target=Dhan_Buy_Order(UserID, Access_Token, DhanSymbol, str(DhanSymbolToken).replace("'", ""), userid[0], strategy, "INTRADAY", Qty))
-                        thread2.start()
-                        thread2.join()
+                        Dhan_Buy_Order(UserID, Access_Token, DhanSymbol, str(DhanSymbolToken).replace("'", ""), userid[0], strategy, "INTRADAY", Qty)
+
 
 
                 if Broker == "ALICE":
@@ -82,9 +80,8 @@ def Buy_Order(symbol, token, strategy, DhanSymbol, AliceSymbol, UpstoxSymbol, Fy
                         if strategy == "nifty_expiry_ce" and strategy == "nifty_expiry_pe":
                             Alice_Buy_Order_Delivery(UserID, API, AliceSymbol, userid[0], strategy, "ProductType.Delivery", Qty)
                         else:
-                            thread3 = threading.Thread(target=Alice_Buy_Order(UserID, API, AliceSymbol, userid[0], strategy, "ProductType.Intraday", Qty))
-                            thread3.start()
-                            thread3.join()
+                            Alice_Buy_Order(UserID, API, AliceSymbol, userid[0], strategy, "ProductType.Intraday", Qty)
+
                     except:
                         pass
 
@@ -108,9 +105,8 @@ def Buy_Order(symbol, token, strategy, DhanSymbol, AliceSymbol, UpstoxSymbol, Fy
                         if strategy == "nifty_expiry_ce" and strategy == "nifty_expiry_pe":
                             Upstox_Buy_Order_Delivery(Api, Api_Secret, Totp, Token, userid[0], strategy, "D", str(Qty))
                         else:
-                            thread4 = threading.Thread(target=Upstox_Buy_Order(Api, Api_Secret, Totp, Token, userid[0], strategy, "I", str(Qty)))
-                            thread4.start()
-                            thread4.join()
+                            Upstox_Buy_Order(Api, Api_Secret, Totp, Token, userid[0], strategy, "I", str(Qty))
+
 
                     except:
                         pass
@@ -127,9 +123,8 @@ def Buy_Order(symbol, token, strategy, DhanSymbol, AliceSymbol, UpstoxSymbol, Fy
                     if strategy == "nifty_expiry_ce" and strategy == "nifty_expiry_pe":
                         Fyers_Buy_Order_Delivery(Api, Api_Secret, Totp, FyresSymbol, userid[0], strategy, "CNC", Qty)
                     else:
-                        thread5 = threading.Thread(target=Fyers_Buy_Order(Api, Api_Secret, Totp, FyresSymbol, userid[0], strategy, "INTRADAY", Qty))
-                        thread5.start()
-                        thread5.join()
+                        Fyers_Buy_Order(Api, Api_Secret, Totp, FyresSymbol, userid[0], strategy, "INTRADAY", Qty)
+
 
 
 
@@ -150,9 +145,8 @@ def Buy_Order(symbol, token, strategy, DhanSymbol, AliceSymbol, UpstoxSymbol, Fy
                     if strategy == "nifty_expiry_ce" and strategy == "nifty_expiry_pe":
                         MOFSL_Buy_Order_Delivery(Api.replace(" ", ""), DOB, Totp, ClientID, Password, MotilalSymbol, Token, strategy, userid[0], "Delivery", Qty)
                     else:
-                        thread6 = threading.Thread(target=MOFSL_Buy_Order(Api.replace(" ", ""), DOB, Totp, ClientID, Password, MotilalSymbol, Token, strategy, userid[0], "Normal", Qty))
-                        thread6.start()
-                        thread6.join()
+                        MOFSL_Buy_Order(Api.replace(" ", ""), DOB, Totp, ClientID, Password, MotilalSymbol, Token, strategy, userid[0], "Normal", Qty)
+
         
 
 
@@ -168,9 +162,8 @@ def Buy_Order(symbol, token, strategy, DhanSymbol, AliceSymbol, UpstoxSymbol, Fy
                     if strategy == "nifty_expiry_ce" and strategy == "nifty_expiry_pe":
                         Zrodha_Buy_Order_NRML(Api, Api_Secret, Totp, ZerodhaSymbol, token, strategy, userid[0], "kite.PRODUCT_NRML", Qty)
                     else:
-                        thread7 = threading.Thread(target=MOFSL_Buy_Order(Api.replace(" ", ""), DOB, Totp, ClientID, Password, MotilalSymbol, Token, strategy, userid[0], "Normal", Qty))
-                        thread7.start()
-                        thread7.join()
+                        Zrodha_Buy_Order(Api, Api_Secret, Totp, ZerodhaSymbol, token, strategy, userid[0], "kite.PRODUCT_MIS", Qty)
+
 
 
 
@@ -185,9 +178,8 @@ def Buy_Order(symbol, token, strategy, DhanSymbol, AliceSymbol, UpstoxSymbol, Fy
                     if strategy == "nifty_expiry_ce" and strategy == "nifty_expiry_pe":
                         Icici_Buy_Order(Api, Api_Secret, Totp, IciciStrike, Icicitypes, IciciExpiry, userid, strategy, Qty)
                     else:
-                        thread8 = threading.Thread(target=Icici_Buy_Order(Api, Api_Secret, Totp, IciciStrike, Icicitypes, IciciExpiry, userid, strategy, Qty))
-                        thread8.start()
-                        thread8.join()
+                        Icici_Buy_Order(Api, Api_Secret, Totp, IciciStrike, Icicitypes, IciciExpiry, userid, strategy, Qty)
+
 
 
 
